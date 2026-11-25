@@ -1,0 +1,28 @@
+{
+  "name": "agentaus-ai",
+  "version": "1.0.0",
+  "description": "Use OpenCode with the Agentaus API.",
+  "bin": {
+    "agentaus-ai": "./bin/agentaus-ai.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KAIKI0/agentaus-opencode-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KAIKI0/agentaus-opencode-starter/issues"
+  },
+  "homepage": "https://github.com/KAIKI0/agentaus-opencode-starter#readme",
+  "files": [
+    "bin/agentaus-ai.js",
+    "README.md",
+    "LICENSE"
+  ]
+}

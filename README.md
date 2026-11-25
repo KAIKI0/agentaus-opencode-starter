@@ -1,39 +1,52 @@
 # Agentaus OpenCode Starter Kit
 
-Use OpenCode with the Agentaus API.
+Use [OpenCode](https://opencode.ai) with the Agentaus API.
 
 ## Requirements
 
-- Node.js
-- OpenCode
-- Your own Agentaus API key
+- Node.js (with npm)
+- An Agentaus API key
+- Internet connection
 
-## Setup
+## Installation
 
-1. Clone this repository:
+### 1. Install OpenCode
 
-   git clone https://github.com/YOUR_USERNAME/agentaus-opencode-starter.git
+```bash
+npm install -g opencode-ai
+```
 
-2. Enter the folder:
+### 2. Run Agentaus AI
 
-   cd agentaus-opencode-starter
+```bash
+npx agentaus-ai
+```
 
-3. Install OpenCode:
+### 3. Enter your API key
 
-   npm install -g opencode-ai
+When prompted:
 
-4. Copy `.env.example` to `.env`.
+```text
+Enter your Agentaus API key:
+```
 
-5. Open `.env` and replace the placeholder with your own Agentaus API key.
+Paste your own Agentaus API key and press Enter.
 
-6. Set the API key in your terminal:
+Your key will not be displayed while typing.
 
-   export AGENTAUS_API_KEY="your_api_key_here"
+### 4. Start coding
 
-7. Start OpenCode:
+OpenCode will launch with Agentaus configured.
 
-   opencode
+You can now use Agentaus inside OpenCode.
 
 ## Security
 
-Never share or commit your real API key.
+- Never share your API key.
+- Never commit your API key to GitHub.
+- Your API key is requested each time you launch the starter.
+- Only use your own authorized Agentaus API key.
+
+## Repository
+
+https://github.com/KAIKI0/agentaus-opencode-starter
