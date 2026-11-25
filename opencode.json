@@ -1,0 +1,23 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "agentaus/agentaus",
+  "provider": {
+    "agentaus": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Agentaus (Trellis Data)",
+      "options": {
+        "baseURL": "https://agentaus.com.au/api/v1",
+        "apiKey": "{env:AGENTAUS_API_KEY}"
+      },
+      "models": {
+        "agentaus": {
+          "name": "Agentaus",
+          "limit": {
+            "context": 131072,
+            "output": 8192
+          }
+        }
+      }
+    }
+  }
+}
